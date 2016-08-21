@@ -39,13 +39,6 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<url>https://semanticcms.com/docs/semanticcms-theme-documentation-style/</url>
 	<description>Default style for SemanticCMS theme tailored for technical documentation.</description>
 
-	<licenses>
-		<license>
-			<name>GNU General Lesser Public License (LGPL) version 3.0</name>
-			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
-		</license>
-	</licenses>
-
 	<developers>
 		<developer>
 			<name>AO Industries, Inc.</name>
