@@ -1,0 +1,54 @@
+/*
+ * semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
+ * Copyright (C) 2013, 2014, 2016  AO Industries, Inc.
+ *     support@aoindustries.com
+ *     7262 Bull Pen Cir
+ *     Mobile, AL 36695
+ *
+ * This file is part of semanticcms-theme-documentation-style.
+ *
+ * semanticcms-theme-documentation-style is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * semanticcms-theme-documentation-style is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*
+ * Styles in this area are related to the docs templates and taglibs, but not
+ * specific to the site content.
+ */
+#pageContainer {
+	position: static;
+	top: auto;
+	left: auto;
+	right: auto;
+	bottom: auto;
+}
+#pageTopArea {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 40px;
+	background-color: #f0f0f0;
+	padding: 8px;
+	border-bottom: 1px solid #c0c0c0;
+	z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
+}
+#pageMainArea {
+	position: relative;
+	left: 0px;
+	right: auto;
+	top: auto;
+	padding-top: 57px;
+	bottom: auto;
+	overflow: visible;
+}
