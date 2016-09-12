@@ -27,7 +27,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms</artifactId>
-		<version>1.3</version>
+		<version>1.4-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -36,7 +36,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS Theme Documentation Style</name>
-	<url>https://semanticcms.com/docs/semanticcms-theme-documentation-style/</url>
+	<url>https://semanticcms.com/theme-documentation-style/</url>
 	<description>Default style for SemanticCMS theme tailored for technical documentation.</description>
 
 	<scm>
@@ -50,7 +50,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-theme-documentation</artifactId>
-			<version>1.4</version>
+			<version>1.5-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
