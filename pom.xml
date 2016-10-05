@@ -27,7 +27,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms</artifactId>
-		<version>1.4-SNAPSHOT</version>
+		<version>1.4.1</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -72,7 +72,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-theme-documentation</artifactId>
-			<version>1.5-SNAPSHOT</version>
+			<version>1.5.0</version>
 		</dependency>
 	</dependencies>
 </project>
