@@ -1,9 +1,9 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Theme Documentation Style](https://semanticcms.com/theme-documentation-style/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [Theme Documentation](https://semanticcms.com/theme-documentation/) / [Style](https://semanticcms.com/theme-documentation/style/)
 Default style for [SemanticCMS](https://semanticcms.com/) theme tailored for technical documentation.
 
 ## Project Links
-* [Project Home](https://semanticcms.com/theme-documentation-style/)
-* [API Docs](https://semanticcms.com/theme-documentation-style/apidocs/)
+* [Project Home](https://semanticcms.com/theme-documentation/style/)
+* [API Docs](https://semanticcms.com/theme-documentation/style/apidocs/)
 * [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-theme-documentation-style%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-theme-documentation-style)
 
