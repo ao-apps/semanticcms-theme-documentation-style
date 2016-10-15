@@ -3,7 +3,7 @@ Default style for [SemanticCMS](https://semanticcms.com/) theme tailored for tec
 
 ## Project Links
 * [Project Home](https://semanticcms.com/theme-documentation/style/)
-* [Maven Central Repository](http://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-theme-documentation-style%22)
+* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-theme-documentation-style%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-theme-documentation-style)
 
 ## Contact Us
