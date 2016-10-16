@@ -58,6 +58,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 							<artifactId>maven-javadoc-plugin</artifactId>
 							<configuration>
 								<links>
+									<link>https://docs.oracle.com/javase/6/docs/api/</link>
 									<link>https://semanticcms.com/theme-documentation/apidocs/</link>
 								</links>
 							</configuration>
