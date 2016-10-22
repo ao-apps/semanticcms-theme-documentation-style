@@ -27,7 +27,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms</artifactId>
-		<version>1.5.0</version>
+		<version>1.5.1-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -43,7 +43,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-theme-documentation-style.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-theme-documentation-style.git</developerConnection>
-		<url>http://github.com/aoindustries/semanticcms-theme-documentation-style</url>
+		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -51,7 +51,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-theme-documentation</artifactId>
-			<version>1.6.0</version>
+			<version>1.6.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
