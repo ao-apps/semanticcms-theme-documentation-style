@@ -35,15 +35,21 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<version>1.5.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
+	<properties>
+		<bookPath>/theme-documentation/style</bookPath>
+		<shortTitle>Style</shortTitle>
+	</properties>
+
 	<name>SemanticCMS Theme Documentation Style</name>
-	<url>https://semanticcms.com/theme-documentation/style/</url>
+	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
 	<description>Default style for SemanticCMS theme tailored for technical documentation.</description>
 	<inceptionYear>2013</inceptionYear>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-theme-documentation-style.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-theme-documentation-style.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style</url>
+		<!-- Can't inherit due to multi-module -->
+		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/aoindustries/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
 
