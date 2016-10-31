@@ -3,6 +3,7 @@ Default style for [SemanticCMS theme tailored for technical documentation](https
 
 ## Project Links
 * [Project Home](https://semanticcms.com/theme-documentation/style/)
+* [Changelog](https://semanticcms.com/theme-documentation/style/changelog)
 * [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-theme-documentation-style%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-theme-documentation-style)
 
