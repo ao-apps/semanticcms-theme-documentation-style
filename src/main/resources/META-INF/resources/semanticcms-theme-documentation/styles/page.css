@@ -210,3 +210,17 @@ td, th, li {
 .h6Content {
 	margin-bottom: 1em;
 }
+/* TODO: thinTable should have a name within appropriate prefix namespace,
+         also should belong somewhere more specific? */
+table.thinTable {
+	border-collapse: collapse;
+}
+table.thinTable,
+.thinTable > thead > tr > th,
+.thinTable > thead > tr > td,
+.thinTable > tbody > tr > th,
+.thinTable > tbody > tr > td {
+	border: 1px solid #606060;
+	padding: 2px;
+	margin: 0px;
+}
