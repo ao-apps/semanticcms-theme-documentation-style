@@ -36,12 +36,11 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<packaging>jar</packaging>
 
 	<properties>
-		<bookPath>/theme-documentation/style</bookPath>
 		<shortTitle>Style</shortTitle>
 	</properties>
 
 	<name>SemanticCMS Theme Documentation Style</name>
-	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://semanticcms.com/theme-documentation/style/</url>
 	<description>Default style for SemanticCMS theme tailored for technical documentation.</description>
 	<inceptionYear>2013</inceptionYear>
 
