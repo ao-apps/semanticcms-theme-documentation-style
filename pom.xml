@@ -33,7 +33,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-theme-documentation-style</artifactId>
-	<version>1.5.2</version>
+	<version>1.5.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS Theme Documentation Style</name>
