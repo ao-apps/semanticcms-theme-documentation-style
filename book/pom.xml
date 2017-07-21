@@ -130,7 +130,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-theme-documentation-style</artifactId>
-			<version>1.5.3</version>
+			<version>1.5.4-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>
