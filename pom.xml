@@ -29,7 +29,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.5.4-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.5.4-validation-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<name>SemanticCMS 1 Theme Documentation Style</name>
@@ -47,7 +47,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 
 	<dependencies>
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.6.2</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.6.3-validation-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
