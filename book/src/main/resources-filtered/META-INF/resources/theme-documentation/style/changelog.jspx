@@ -37,7 +37,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:59:12-0500"
-		dateModified="2017-07-20T17:09:30-0500"
+		dateModified="2019-04-16T02:16:27-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-theme-documentation-style:pom.version}" />
@@ -65,7 +65,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		>
 			<ul>
 				<li>New release for bug fixes in underlying <ao:a href="https://aoindustries.com/ao-encoding/">AO Encoding</ao:a> library.</li>
-				<li>Don't float figures inside of <code>&lt;li&gt;</code>.</li>
+				<li>Don't float figures inside of <code><![CDATA[&lt;li&gt;]]></code>.</li>
 				<li>Updated dependencies.</li>
 			</ul>
 		</changelog:release>
