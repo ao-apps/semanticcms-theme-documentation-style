@@ -35,7 +35,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-theme-documentation-style</documented.artifactId>
-		<documented.name>SemanticCMS 1 Theme Documentation Style</documented.name>
+		<documented.name>SemanticCMS Theme Documentation Style</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.url>https://semanticcms.com/theme-documentation/style/</documented.url>
 		<documented.description>Default style for SemanticCMS theme tailored for technical documentation.</documented.description>
