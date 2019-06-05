@@ -37,7 +37,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:59:12-0500"
-		dateModified="2019-04-16T02:16:27-0500"
+		dateModified="2019-06-04T19:54:26-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-theme-documentation-style:pom.version}" />
@@ -52,7 +52,16 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Using managed dependencies:
+						<ol>
+							<li>This project uses transitive managed dependencies.</li>
+							<li>This project's managed dependencies may also be imported by other projects.</li>
+						</ol>
+					</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
