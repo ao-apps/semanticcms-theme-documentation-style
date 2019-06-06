@@ -35,7 +35,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-theme-documentation-style</documented.artifactId>
-		<documented.name>SemanticCMS 2 Theme Documentation Style</documented.name>
+		<documented.name>SemanticCMS Theme Documentation Style²</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.url>https://semanticcms.com/theme-documentation/style/</documented.url>
 		<documented.description>Default style for SemanticCMS theme tailored for technical documentation.</documented.description>
@@ -89,7 +89,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 			<groupId>com.aoindustries</groupId><artifactId>ao-badges</artifactId><version>2.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.0-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-taglib</artifactId><version>3.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>2.0.0-SNAPSHOT</version>
