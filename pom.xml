@@ -49,7 +49,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>1.8.0-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
