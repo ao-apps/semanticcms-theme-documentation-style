@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
-Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -49,7 +49,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>2.0.0-SNAPSHOT</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
