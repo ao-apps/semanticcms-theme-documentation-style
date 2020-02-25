@@ -37,7 +37,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:59:12-0500"
-		dateModified="2020-01-29T23:21:09-0600"
+		dateModified="2020-02-25T13:58:05-0600"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-theme-documentation-style:pom.version}" />
@@ -54,10 +54,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>
-						New CSS classes for table formatting:
-						<code>outsideBorder</code>, <code>noborder</code>, <code>packed</code>, and <code>spread</code>.
-					</li>
+					<li>Using new <ao:a href="https://aoindustries.com/ao-style/">AO Style</ao:a> project for base CSS classes.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
