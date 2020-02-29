@@ -24,8 +24,6 @@
 /* TODO: Use ao-style-registry */
 @import url("../../ao-style/ao-style.css");
 
-/* TODO: Prefix all styles with semanticcms-theme-documentation- */
-
 /*
  * Default element styles.
  */
@@ -34,14 +32,10 @@ html, body {
 	padding: 0px;
 	font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6,
-nav#pragmatickm-task-view-user-list {
+h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	margin-bottom: 6px;
-}
-/* TODO: This was in docs-taglib.css, is it still needed? */
-nav#pragmatickm-task-view-user-list {
 	padding-bottom: 6px;
+	margin-bottom: 6px;
 }
 h1, h2,
 nav#pragmatickm-task-view-user-list {
@@ -176,8 +170,6 @@ h1#semanticcms-theme-documentation-page-header {
 }
 .semanticcms-theme-documentation-page-top-link-active {
 	background-color: #ffff00 !important;
-}
-.semanticcms-theme-documentation-page-top-link-active {
 	font-weight: bold;
 }
 #semanticcms-theme-documentation-page-top-links-end {
@@ -215,12 +207,4 @@ main a:hover {
 #semanticcms-theme-documentation-page-pad-bottom {
 	clear: both;
 	margin-bottom: 6em;
-}
-div.semanticcms-core-view-content-body,
-.semanticcms-section-h2-content,
-.semanticcms-section-h3-content,
-.semanticcms-section-h4-content,
-.semanticcms-section-h5-content,
-.semanticcms-section-h6-content {
-	margin-bottom: 1em;
 }
