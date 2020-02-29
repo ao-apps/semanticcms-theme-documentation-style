@@ -34,11 +34,17 @@ html, body {
 	padding: 0px;
 	font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6, nav.userList {
+h1, h2, h3, h4, h5, h6,
+nav#pragmatickm-task-view-user-list {
 	clear: both;
 	margin-bottom: 6px;
 }
-h1, h2, nav.userList {
+/* TODO: This was in docs-taglib.css, is it still needed? */
+nav#pragmatickm-task-view-user-list {
+	padding-bottom: 6px;
+}
+h1, h2,
+nav#pragmatickm-task-view-user-list {
 	border-bottom: 1px solid #c0c0c0;
 }
 h3 {
@@ -113,14 +119,14 @@ figcaption {
  * Styles in this area are related to the docs templates and taglibs, but not
  * specific to the site content.
  */
-#pageContainer {
+#semanticcms-theme-documentation-page-container {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
 }
-#pageTopArea {
+#semanticcms-theme-documentation-page-top-area {
 	position: absolute;
 	left: 0px;
 	right: 0px;
@@ -132,13 +138,13 @@ figcaption {
 	z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
 }
 /* Old div-based pageHeader
-div#pageHeader {
+div#semanticcms-theme-documentation-page-header {
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 2px;
 }*/
 /* New h1-based pageHeader */
-h1#pageHeader {
+h1#semanticcms-theme-documentation-page-header {
 	font-size: inherit; /* CSS3 - don't care about old IE */
 	border: none;
 	margin: 0px;
@@ -146,49 +152,52 @@ h1#pageHeader {
 	text-align: center;
 	padding-bottom: 2px;
 }
-#pageTopLinks1,
-#pageTopLinks2 {
+#semanticcms-theme-documentation-page-top-links1,
+#semanticcms-theme-documentation-page-top-links2 {
 	font-size: 14px;
 }
-#pageTopLinks1 {
+#semanticcms-theme-documentation-page-top-links1 {
 	float:left;
 }
-#pageTopLinks2 {
+#semanticcms-theme-documentation-page-top-links2 {
 	float:right;
 }
-#pageTopLinks1 > a,
-#pageTopLinks2 > a {
+#semanticcms-theme-documentation-page-top-links1 > a,
+#semanticcms-theme-documentation-page-top-links2 > a {
 	display: inline-block;
 	background-color: white;
 	padding: 2px 4px 2px 4px;
 	border: 1px solid #808080;
 	text-decoration: none;
 }
-#pageTopLinks1 > a:hover,
-#pageTopLinks2 > a:hover {
+#semanticcms-theme-documentation-page-top-links1 > a:hover,
+#semanticcms-theme-documentation-page-top-links2 > a:hover {
 	text-decoration: underline;
 }
-.pageTopLinkActive {
+.semanticcms-theme-documentation-page-top-link-active {
 	background-color: #ffff00 !important;
 }
-.pageTopLinkActive {
+.semanticcms-theme-documentation-page-top-link-active {
 	font-weight: bold;
 }
-#pageTopLinksEnd {
+#semanticcms-theme-documentation-page-top-links-end {
 	clear: both;
 }
-#pageMainArea {
+main {
 	position: absolute;
 	left: 0px;
 	right: 0px;
 	top: 57px;
 	bottom: 0px;
 	overflow: auto;
-	padding: 8px; /* Any change here must also be changed in .pageMainAreaUndoSidePadding */
+	padding: 8px; /* Any change here must also be changed in .semanticcms-theme-documentation-page-main-undo-side-padding */
 	text-align: justify;
 }
-/* This will undo the padding added by the #pageMainArea style */
-.pageMainAreaUndoSidePadding {
+/*
+	This will undo the padding added by the main style
+	TODO: This is a convoluted approach.  Do themes need a "layout" concept like PCA?
+*/
+.semanticcms-theme-documentation-page-main-undo-side-padding {
 	left:-8px;
 	right:-8px;
 }
@@ -196,22 +205,22 @@ h1#pageHeader {
 td, th, li {
 	text-align: initial;
 }
-#pageMainArea a {
+main a {
 	text-decoration: none;
 }
-#pageMainArea a:hover {
+main a:hover {
 	text-decoration: underline;
 }
 /* Bottom margin includes extra white space to help add scrolling space */
-#pagePadBottom {
+#semanticcms-theme-documentation-page-pad-bottom {
 	clear: both;
 	margin-bottom: 6em;
 }
-.pageContent,
-.h2Content,
-.h3Content,
-.h4Content,
-.h5Content,
-.h6Content {
+div.semanticcms-core-view-content-body,
+.semanticcms-section-h2-content,
+.semanticcms-section-h3-content,
+.semanticcms-section-h4-content,
+.semanticcms-section-h5-content,
+.semanticcms-section-h6-content {
 	margin-bottom: 1em;
 }
