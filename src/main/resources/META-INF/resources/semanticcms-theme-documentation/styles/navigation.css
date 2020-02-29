@@ -1,6 +1,6 @@
 /*
  * semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
- * Copyright (C) 2013, 2014, 2015, 2016  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -29,18 +29,18 @@ body {
 	background-repeat: no-repeat;
 	background-position: center top;
 }
-#navigationLogo,
-#navigationSearch,
+#semanticcms-theme-documentation-navigation-logo,
+#semanticcms-theme-documentation-navigation-search,
 div.semanticcms-theme-documentation-navigation-views {
 	border-bottom: 1px solid #c0c0c0;
 	padding-bottom: 0.5em;
 	margin-bottom: 0.5em;
 }
-#navigationLogo {
+#semanticcms-theme-documentation-navigation-logo {
 	text-align: center;
 	padding-top:0.5em;
 }
-#navigationSearch,
+#semanticcms-theme-documentation-navigation-search,
 div.semanticcms-theme-documentation-navigation-views {
 	padding-left: 0.5em;
 }
@@ -60,10 +60,10 @@ div.semanticcms-theme-documentation-navigation-views > ul > li > a:hover {
 	text-decoration: underline;
 }
 div.semanticcms-theme-documentation-navigation-views,
-#navigationTree {
+#semanticcms-theme-documentation-navigation-tree {
 	font-size: 14px;
 }
-#navigationTree {
+#semanticcms-theme-documentation-navigation-tree {
 	padding-left: 4px;
 }
 
