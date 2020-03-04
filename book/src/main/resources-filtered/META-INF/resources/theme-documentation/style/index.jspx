@@ -35,27 +35,31 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-19T02:48:00-0500"
-		dateModified="2019-06-01T18:51:51-0500"
+		dateModified="2020-03-04T14:00:20-0600"
 	>
 		<core:child page="changelog.jspx" />
+		<core:child page="apidocs/index.jspx" />
 		<header>
 			<ao:include
 				page="/ao-badges/badges.inc.jspx"
 				arg.projectStatus="current-stable"
 				arg.managementStatus="production"
 				arg.packagingStatus="active"
+				arg.javaVersion="@{documented.javaVersion}"
 				arg.javaeeVersion="6"
 				arg.semanticVersioning="2.0.0"
 				arg.license="lgpl-3.0"
 			/>
 		</header>
 		<p>
-			Default style for <core:link page="/index.jspx">SemanticCMS theme tailored for technical documentation</core:link>.
+			<!-- TODO: Update path other places -->
+			Default style for <core:link book="/theme-documentation" page="/index.jspx">SemanticCMS theme tailored for technical documentation</core:link>.
 		</p>
 		<section:nav label="Project Links">
 			<ul>
 				<li><core:link page="index.jspx">Project Home</core:link></li>
 				<li><core:link page="changelog.jspx">Changelog</core:link></li>
+				<li><core:link page="apidocs/index.jspx">API Docs</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
