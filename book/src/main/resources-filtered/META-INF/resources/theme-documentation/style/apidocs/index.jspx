@@ -37,7 +37,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<core:page
 		title="@{documented.name} @{com.semanticcms:semanticcms-theme-documentation-style:pom.version} API Docs"
 		shortTitle="API Docs"
-		dateModified="2020-03-04T14:00:20-0600"
+		datePublished="2020-03-04T14:00:20-0600"
 		dateModified="${ao:getLastModified('index.html')}"
 	/>
 </jsp:root>
