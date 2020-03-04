@@ -32,6 +32,18 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>2.0.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
+	<properties>
+		<javaVersion>1.8</javaVersion>
+		<compiler.bootclasspath>${bootclasspath.jdk8}</compiler.bootclasspath>
+		<javac.bootclasspath>${bootclasspath.jdk8}</javac.bootclasspath>
+		<javac.link.javaApi>${javac.link.javaApi.jdk8}</javac.link.javaApi>
+		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a>
+/ <a target="_top" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
+/ <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
+		<shortTitle>Style</shortTitle>
+		<description.html><![CDATA[Default style for <a target="_top" href="https://semanticcms.com/theme-documentation/">SemanticCMS theme tailored for technical documentation</a>.]]></description.html>
+	</properties>
+
 	<name>SemanticCMS Theme Documentation Style²</name>
 	<url>https://semanticcms.com/theme-documentation/style/</url>
 	<description>Default style for SemanticCMS theme tailored for technical documentation.</description>
@@ -45,19 +57,59 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<tag>HEAD</tag>
 	</scm>
 
+	<profiles>
+		<profile>
+			<id>release</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-javadoc-plugin</artifactId>
+						<configuration>
+							<links>
+								<link>${javac.link.javaApi}</link>
+								<!-- Java EE -->
+								<link>${javac.link.javaeeApi.6}</link>
+								<!-- Direct -->
+								<link>https://aoindustries.com/ao-web-resources/registry/apidocs/</link>
+								<link>https://aoindustries.com/ao-web-resources/servlet/apidocs/</link>
+							</links>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 	<dependencyManagement>
 		<dependencies>
+			<!-- Java EE -->
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.0${POST-SNAPSHOT}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-registry</artifactId><version>0.1.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId><version>0.1.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
 	<dependencies>
+		<!-- Java EE -->
+		<dependency>
+			<groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<!-- Direct -->
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
+			<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-registry</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId>
 		</dependency>
 	</dependencies>
 </project>

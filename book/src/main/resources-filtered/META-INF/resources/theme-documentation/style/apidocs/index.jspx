@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
-Copyright (C) 2016, 2017, 2019, 2020  AO Industries, Inc.
+Copyright (C) 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -23,45 +23,21 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 -->
 <jsp:root
 	xmlns:ao="https://aoindustries.com/ao-taglib/"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:core="https://semanticcms.com/core/taglib/"
 	xmlns:jsp="http://java.sun.com/JSP/Page"
-	xmlns:section="https://semanticcms.com/section/taglib/"
 	version="2.1"
 >
 	<jsp:directive.page language="java" pageEncoding="UTF-8" />
 	<jsp:directive.page session="false" />
+	<jsp:output omit-xml-declaration="true" />
+	<c:if test="${core:getCaptureLevel()==null}">
+		<ao:forward page="index.html" />
+	</c:if>
 	<core:page
-		title="@{documented.name}"
-		shortTitle="@{documented.shortTitle}"
-		description="@{documented.description}"
-		datePublished="2016-10-19T02:48:00-0500"
+		title="@{documented.name} @{com.semanticcms:semanticcms-theme-documentation-style:pom.version} API Docs"
+		shortTitle="API Docs"
 		dateModified="2020-03-04T14:00:20-0600"
-	>
-		<core:child page="changelog" />
-		<core:child page="apidocs/" />
-		<header>
-			<ao:include
-				page="/ao-badges/badges.inc.jspx"
-				arg.projectStatus="current-stable"
-				arg.managementStatus="production"
-				arg.packagingStatus="active"
-				arg.javaVersion="@{documented.javaVersion}"
-				arg.javaeeVersion="6"
-				arg.semanticVersioning="2.0.0"
-				arg.license="lgpl-3.0"
-			/>
-		</header>
-		<p>
-			Default style for <core:link page="/">SemanticCMS theme tailored for technical documentation</core:link>.
-		</p>
-		<section:nav label="Project Links">
-			<ul>
-				<li><core:link page="/">Project Home</core:link></li>
-				<li><core:link page="changelog">Changelog</core:link></li>
-				<li><core:link page="apidocs/">API Docs</core:link></li>
-				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
-				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
-			</ul>
-		</section:nav>
-	</core:page>
+		dateModified="${ao:getLastModified('index.html')}"
+	/>
 </jsp:root>
