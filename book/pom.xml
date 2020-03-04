@@ -35,6 +35,8 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<properties>
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-theme-documentation-style</documented.artifactId>
+		<documented.javaVersion>1.8</documented.javaVersion>
+		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
 		<documented.name>SemanticCMS Theme Documentation Style²</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.url>https://semanticcms.com/theme-documentation/style/</documented.url>
