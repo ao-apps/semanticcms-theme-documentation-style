@@ -49,9 +49,6 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-style</artifactId><version>1.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-			</dependency>
-			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 		</dependencies>
@@ -59,10 +56,6 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 
 	<dependencies>
 		<!-- Direct -->
-		<dependency>
-			<!-- TODO: Use ao-style-registry -->
-			<groupId>com.aoindustries</groupId><artifactId>ao-style</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation</artifactId>
 		</dependency>
