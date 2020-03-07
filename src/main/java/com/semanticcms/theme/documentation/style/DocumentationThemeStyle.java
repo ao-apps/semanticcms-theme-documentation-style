@@ -23,6 +23,7 @@
 package com.semanticcms.theme.documentation.style;
 
 import com.aoindustries.web.resources.registry.Group;
+import com.aoindustries.web.resources.registry.Registry;
 import com.aoindustries.web.resources.registry.Style;
 import com.aoindustries.web.resources.registry.Styles;
 import com.aoindustries.web.resources.servlet.RegistryEE;
@@ -38,18 +39,33 @@ public class DocumentationThemeStyle implements ServletContextListener {
 	 * group that will be used for the documentation theme.
 	 */
 	public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-theme-documentation-style");
-
 	public static final Style THEME_CSS = new Style("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation.css");
 	public static final Style THEME_PRINT_CSS = Style.builder().uri("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation-print.css").media("print").build();
+
+	/**
+	 * The name of the {@link Group} of web resources for frameset.inc.jspx.
+	 */
+	public static final Group.Name FRAMESET_GROUP = new Group.Name(RESOURCE_GROUP + "/frameset");
+	public static final Style FRAMESET = new Style("/semanticcms-theme-documentation/styles/frameset.css");
+
+	/**
+	 * The name of the {@link Group} of web resources for navigation.inc.jspx.
+	 */
+	public static final Group.Name NAVIGATION_GROUP = new Group.Name(RESOURCE_GROUP + "/navigation");
+	public static final Style NAVIGATION = new Style("/semanticcms-theme-documentation/styles/navigation.css");
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
 		// Add our CSS files
-		Styles styles = RegistryEE.Application.get(event.getServletContext())
-			.getGroup(RESOURCE_GROUP)
-			.styles;
+		Registry registry = RegistryEE.Application.get(event.getServletContext());
+
+		Styles styles = registry.getGroup(RESOURCE_GROUP).styles;
 		styles.add(THEME_CSS);
 		styles.add(THEME_PRINT_CSS);
+
+		registry.getGroup(FRAMESET_GROUP).styles.add(FRAMESET);
+
+		registry.getGroup(NAVIGATION_GROUP).styles.add(NAVIGATION);
 	}
 
 	@Override
