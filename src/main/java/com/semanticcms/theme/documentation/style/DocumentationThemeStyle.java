@@ -22,6 +22,7 @@
  */
 package com.semanticcms.theme.documentation.style;
 
+import com.aoindustries.web.resources.registry.Group;
 import com.aoindustries.web.resources.registry.Style;
 import com.aoindustries.web.resources.registry.Styles;
 import com.aoindustries.web.resources.servlet.RegistryEE;
@@ -33,9 +34,10 @@ import javax.servlet.annotation.WebListener;
 public class DocumentationThemeStyle implements ServletContextListener {
 
 	/**
-	 * The name of the {@link Group} of web resources for the documentation theme.
+	 * The name of the {@linkplain com.aoindustries.web.resources.servlet.RegistryEE.Application application-scope}
+	 * group that will be used for the documentation theme.
 	 */
-	public static final String STYLE_GROUP = "semanticcms-theme-documentation";
+	public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-theme-documentation-style");
 
 	public static final Style THEME_CSS = new Style("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation.css");
 	public static final Style THEME_PRINT_CSS = Style.builder().uri("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation-print.css").media("print").build();
@@ -43,7 +45,9 @@ public class DocumentationThemeStyle implements ServletContextListener {
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
 		// Add our CSS files
-		Styles styles = RegistryEE.get(event.getServletContext()).getGroup(STYLE_GROUP).styles;
+		Styles styles = RegistryEE.Application.get(event.getServletContext())
+			.getGroup(RESOURCE_GROUP)
+			.styles;
 		styles.add(THEME_CSS);
 		styles.add(THEME_PRINT_CSS);
 	}
