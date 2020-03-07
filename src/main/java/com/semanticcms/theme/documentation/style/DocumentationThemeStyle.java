@@ -25,7 +25,6 @@ package com.semanticcms.theme.documentation.style;
 import com.aoindustries.web.resources.registry.Group;
 import com.aoindustries.web.resources.registry.Registry;
 import com.aoindustries.web.resources.registry.Style;
-import com.aoindustries.web.resources.registry.Styles;
 import com.aoindustries.web.resources.servlet.RegistryEE;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -58,13 +57,8 @@ public class DocumentationThemeStyle implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent event) {
 		// Add our CSS files
 		Registry registry = RegistryEE.Application.get(event.getServletContext());
-
-		Styles styles = registry.getGroup(RESOURCE_GROUP).styles;
-		styles.add(THEME_CSS);
-		styles.add(THEME_PRINT_CSS);
-
-		registry.getGroup(FRAMESET_GROUP).styles.add(FRAMESET);
-
+		registry.getGroup(  RESOURCE_GROUP).styles.add(THEME_CSS, THEME_PRINT_CSS);
+		registry.getGroup(  FRAMESET_GROUP).styles.add(FRAMESET);
 		registry.getGroup(NAVIGATION_GROUP).styles.add(NAVIGATION);
 	}
 
