@@ -53,6 +53,11 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style/issues</url>
+	</issueManagement>
+
 	<profiles>
 		<profile>
 			<id>release</id>
