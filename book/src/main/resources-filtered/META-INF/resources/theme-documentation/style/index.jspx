@@ -52,7 +52,6 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 			/>
 		</header>
 		<p>
-			<!-- TODO: Update path other places -->
 			Default style for <core:link book="/theme-documentation" page="/index.jspx">SemanticCMS theme tailored for technical documentation</core:link>.
 		</p>
 		<section:nav label="Project Links">
