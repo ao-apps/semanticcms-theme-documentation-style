@@ -33,11 +33,11 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	<packaging>bundle</packaging>
 
 	<properties>
-		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a>
-/ <a target="_top" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
-/ <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
+		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
+/ <a target="${javadoc.target}" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
+/ <a target="${javadoc.target}" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
 		<shortTitle>Style</shortTitle>
-		<description.html><![CDATA[Default style for <a target="_top" href="https://semanticcms.com/theme-documentation/">SemanticCMS theme tailored for technical documentation</a>.]]></description.html>
+		<description.html><![CDATA[Default style for <a target="${javadoc.target}" href="https://semanticcms.com/theme-documentation/">SemanticCMS theme tailored for technical documentation</a>.]]></description.html>
 	</properties>
 
 	<name>SemanticCMS Theme Documentation Style²</name>
