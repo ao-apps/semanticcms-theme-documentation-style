@@ -29,7 +29,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.8.0-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.8.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
