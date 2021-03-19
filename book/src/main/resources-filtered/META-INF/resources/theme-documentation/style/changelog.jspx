@@ -37,7 +37,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T02:59:12-0500"
-		dateModified="2021-03-10T10:53:25-06:00"
+		dateModified="2021-03-19T00:51:36-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -49,11 +49,23 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 			>
 				<ul>
 					<li>Updated for <core:link book="/" page="/" /> 2 compatibility.</li>
-					<li>Updated dependencies.</li>
-					<li>Added styles for <code><![CDATA[&lt;output&gt;]]></code>.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.8.1"
+			datePublished="2021-03-19T00:51:36-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated dependencies.</li>
+				<li>Added styles for <code><![CDATA[&lt;output&gt;]]></code>.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
