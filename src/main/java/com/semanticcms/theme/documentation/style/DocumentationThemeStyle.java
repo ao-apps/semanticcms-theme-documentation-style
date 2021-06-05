@@ -1,6 +1,6 @@
 /*
  * semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
- * Copyright (C) 2020  AO Industries, Inc.
+ * Copyright (C) 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,10 +22,10 @@
  */
 package com.semanticcms.theme.documentation.style;
 
-import com.aoindustries.web.resources.registry.Group;
-import com.aoindustries.web.resources.registry.Registry;
-import com.aoindustries.web.resources.registry.Style;
-import com.aoindustries.web.resources.servlet.RegistryEE;
+import com.aoapps.web.resources.registry.Group;
+import com.aoapps.web.resources.registry.Registry;
+import com.aoapps.web.resources.registry.Style;
+import com.aoapps.web.resources.servlet.RegistryEE;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -34,7 +34,7 @@ import javax.servlet.annotation.WebListener;
 public class DocumentationThemeStyle implements ServletContextListener {
 
 	/**
-	 * The name of the {@linkplain com.aoindustries.web.resources.servlet.RegistryEE.Application application-scope}
+	 * The name of the {@linkplain com.aoapps.web.resources.servlet.RegistryEE.Application application-scope}
 	 * group that will be used for the documentation theme.
 	 */
 	public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-theme-documentation-style");
