@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [Theme Documentation](https://github.com/aoindustries/semanticcms-theme-documentation) / [Style](https://github.com/aoindustries/semanticcms-theme-documentation-style)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [SemanticCMS](https://github.com/ao-apps/semanticcms) / [Theme Documentation](https://github.com/ao-apps/semanticcms-theme-documentation) / [Style](https://github.com/ao-apps/semanticcms-theme-documentation-style)
 
 [![project: current stable](https://semanticcms.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://semanticcms.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/semanticcms-theme-documentation-style/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/semanticcms-theme-documentation-style/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/semanticcms-theme-documentation-style/workflows/Build/badge.svg?branch=master)](https://github.com/ao-apps/semanticcms-theme-documentation-style/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-theme-documentation-style/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-theme-documentation-style)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.semanticcms%3Asemanticcms-theme-documentation-style)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=ncloc)  
@@ -17,14 +17,14 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=Maintainability)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=coverage)](https://sonarcloud.io/component_measures?branch=master&id=com.semanticcms%3Asemanticcms-theme-documentation-style&metric=Coverage)
 
-Default style for [SemanticCMS theme tailored for technical documentation](https://github.com/aoindustries/semanticcms-theme-documentation).
+Default style for [SemanticCMS theme tailored for technical documentation](https://github.com/ao-apps/semanticcms-theme-documentation).
 
 ## Project Links
 * [Project Home](https://semanticcms.com/theme-documentation/style/)
 * [Changelog](https://semanticcms.com/theme-documentation/style/changelog)
 * [API Docs](https://semanticcms.com/theme-documentation/style/apidocs/)
 * [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-theme-documentation-style)
-* [GitHub](https://github.com/aoindustries/semanticcms-theme-documentation-style)
+* [GitHub](https://github.com/ao-apps/semanticcms-theme-documentation-style)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):

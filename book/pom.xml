@@ -71,20 +71,20 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-theme-documentation-style.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-theme-documentation-style.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style</url>
+		<connection>scm:git:git://github.com/ao-apps/semanticcms-theme-documentation-style.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/semanticcms-theme-documentation-style.git</developerConnection>
+		<url>https://github.com/ao-apps/semanticcms-theme-documentation-style</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style/issues</url>
+		<url>https://github.com/ao-apps/semanticcms-theme-documentation-style/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/semanticcms-theme-documentation-style/actions</url>
+		<url>https://github.com/ao-apps/semanticcms-theme-documentation-style/actions</url>
 	</ciManagement>
 
 	<repositories>
