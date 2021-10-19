@@ -29,7 +29,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-theme-documentation-style</artifactId><version>1.9.1</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -78,7 +78,7 @@ along with semanticcms-theme-documentation-style.  If not, see <http://www.gnu.o
 		<connection>scm:git:git://github.com/ao-apps/semanticcms-theme-documentation-style.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/semanticcms-theme-documentation-style.git</developerConnection>
 		<url>https://github.com/ao-apps/semanticcms-theme-documentation-style</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-theme-documentation-style-1.9.1</tag>
 	</scm>
 
 	<issueManagement>
