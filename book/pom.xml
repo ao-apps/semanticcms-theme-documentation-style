@@ -96,6 +96,9 @@ along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.
 			<releases>
 				<enabled>false</enabled>
 			</releases>
+			<snapshots>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
 		</repository>
 	</repositories>
 
