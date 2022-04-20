@@ -34,37 +34,37 @@ import javax.servlet.annotation.WebListener;
 @WebListener("Registers the style in RegistryEE.")
 public class DocumentationThemeStyle implements ServletContextListener {
 
-	/**
-	 * The name of the {@linkplain com.aoapps.web.resources.servlet.RegistryEE.Application application-scope}
-	 * group that will be used for the documentation theme.
-	 */
-	public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-theme-documentation-style");
-	public static final Style THEME_CSS = new Style("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation.css");
-	public static final Style THEME_PRINT_CSS = Style.builder().uri("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation-print.css").media("print").build();
+  /**
+   * The name of the {@linkplain com.aoapps.web.resources.servlet.RegistryEE.Application application-scope}
+   * group that will be used for the documentation theme.
+   */
+  public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-theme-documentation-style");
+  public static final Style THEME_CSS = new Style("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation.css");
+  public static final Style THEME_PRINT_CSS = Style.builder().uri("/semanticcms-theme-documentation/styles/semanticcms-theme-documentation-print.css").media("print").build();
 
-	/**
-	 * The name of the {@link Group} of web resources for frameset.inc.jspx.
-	 */
-	public static final Group.Name FRAMESET_GROUP = new Group.Name(RESOURCE_GROUP + "/frameset");
-	public static final Style FRAMESET = new Style("/semanticcms-theme-documentation/styles/frameset.css");
+  /**
+   * The name of the {@link Group} of web resources for frameset.inc.jspx.
+   */
+  public static final Group.Name FRAMESET_GROUP = new Group.Name(RESOURCE_GROUP + "/frameset");
+  public static final Style FRAMESET = new Style("/semanticcms-theme-documentation/styles/frameset.css");
 
-	/**
-	 * The name of the {@link Group} of web resources for navigation.inc.jspx.
-	 */
-	public static final Group.Name NAVIGATION_GROUP = new Group.Name(RESOURCE_GROUP + "/navigation");
-	public static final Style NAVIGATION = new Style("/semanticcms-theme-documentation/styles/navigation.css");
+  /**
+   * The name of the {@link Group} of web resources for navigation.inc.jspx.
+   */
+  public static final Group.Name NAVIGATION_GROUP = new Group.Name(RESOURCE_GROUP + "/navigation");
+  public static final Style NAVIGATION = new Style("/semanticcms-theme-documentation/styles/navigation.css");
 
-	@Override
-	public void contextInitialized(ServletContextEvent event) {
-		// Add our CSS files
-		Registry registry = RegistryEE.Application.get(event.getServletContext());
-		registry.getGroup(  RESOURCE_GROUP).styles.add(THEME_CSS, THEME_PRINT_CSS);
-		registry.getGroup(  FRAMESET_GROUP).styles.add(FRAMESET);
-		registry.getGroup(NAVIGATION_GROUP).styles.add(NAVIGATION);
-	}
+  @Override
+  public void contextInitialized(ServletContextEvent event) {
+    // Add our CSS files
+    Registry registry = RegistryEE.Application.get(event.getServletContext());
+    registry.getGroup(  RESOURCE_GROUP).styles.add(THEME_CSS, THEME_PRINT_CSS);
+    registry.getGroup(  FRAMESET_GROUP).styles.add(FRAMESET);
+    registry.getGroup(NAVIGATION_GROUP).styles.add(NAVIGATION);
+  }
 
-	@Override
-	public void contextDestroyed(ServletContextEvent event) {
-		// Do nothing
-	}
+  @Override
+  public void contextDestroyed(ServletContextEvent event) {
+    // Do nothing
+  }
 }

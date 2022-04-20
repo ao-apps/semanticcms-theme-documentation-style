@@ -1,6 +1,6 @@
 /*
  * semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
- * Copyright (C) 2013, 2014, 2016, 2019, 2020  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2016, 2019, 2020, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -26,34 +26,34 @@
  * specific to the site content.
  */
 #semanticcms-theme-documentation-page-container {
-	position: static;
-	top: auto;
-	left: auto;
-	right: auto;
-	bottom: auto;
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
 }
 #semanticcms-theme-documentation-page-top-area {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	height: 40px;
-	background-color: #f0f0f0;
-	padding: 8px;
-	border-bottom: 1px solid #c0c0c0;
-	z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 40px;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-bottom: 1px solid #c0c0c0;
+  z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
 }
 main {
-	position: relative;
-	left: 0px;
-	right: auto;
-	top: auto;
-	padding-top: 57px;
-	bottom: auto;
-	overflow: visible;
+  position: relative;
+  left: 0px;
+  right: auto;
+  top: auto;
+  padding-top: 57px;
+  bottom: auto;
+  overflow: visible;
 }
 /* Hide top navigation while printing */
 #semanticcms-theme-documentation-page-top-links1,
 #semanticcms-theme-documentation-page-top-links2 {
-	display: none;
+  display: none;
 }

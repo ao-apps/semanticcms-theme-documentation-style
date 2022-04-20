@@ -1,6 +1,6 @@
 /*
  * semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -25,40 +25,40 @@
  * Default element styles.
  */
 html, body {
-	margin: 0px;
-	padding: 0px;
-	font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	clear: both;
-	padding-bottom: 6px;
-	margin-bottom: 6px;
+  clear: both;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
 }
 h1, h2,
 nav#pragmatickm-task-view-user-list {
-	border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
 }
 h3 {
-	border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 h4 {
-	border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
 }
 h5 {
-	border-bottom: 1px dotted #f0f0f0;
+  border-bottom: 1px dotted #f0f0f0;
 }
 h1 {
-	margin-top: 0px;
-	/* Maintain old default font size even when h1 inside new HTML5 tags. */
-	font-size: 2em;
+  margin-top: 0px;
+  /* Maintain old default font size even when h1 inside new HTML5 tags. */
+  font-size: 2em;
 }
 img {
-	border: 0px;
+  border: 0px;
 }
 p,
 pre {
-	margin-top: 4px;
-	margin-bottom: 1em;
+  margin-top: 4px;
+  margin-bottom: 1em;
 }
 code,
 samp,
@@ -66,46 +66,46 @@ output,
 kbd,
 var,
 pre {
-	/* A nice blue: background-color: #f0fff8; */
-	/* A parchment color: background-color: #f0e8d0; */
-	background-color: #fff8e8;
-	border: 1px dashed #808080;
+  /* A nice blue: background-color: #f0fff8; */
+  /* A parchment color: background-color: #f0e8d0; */
+  background-color: #fff8e8;
+  border: 1px dashed #808080;
 }
 code,
 samp,
 output,
 kbd,
 var {
-	display: inline-block;
-	padding: 1px;
+  display: inline-block;
+  padding: 1px;
 }
 pre {
-	padding: 4px;
+  padding: 4px;
 }
 thead > tr > th {
-	text-align: center;
+  text-align: center;
 }
 tbody > tr > th {
-	text-align: left;
+  text-align: left;
 }
 ul > li > a {
-	text-decoration: none;
+  text-decoration: none;
 }
 ul > li > a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 var {
-	font-family: monospace;
+  font-family: monospace;
 }
 
 /* Figures are floated left with a centered caption */
 :not(li) > figure {
-	float: left;
+  float: left;
 }
 figcaption {
-	text-align: center;
-	font-size: small;
-	font-style: italic;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
 }
 
 /*
@@ -113,97 +113,97 @@ figcaption {
  * specific to the site content.
  */
 #semanticcms-theme-documentation-page-container {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 #semanticcms-theme-documentation-page-top-area {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	height: 40px;
-	background-color: #f0f0f0;
-	padding: 8px;
-	border-bottom: 1px solid #c0c0c0;
-	z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 40px;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-bottom: 1px solid #c0c0c0;
+  z-index: 1; /* When small screen makes float buttons overlap content, keep buttons above content */
 }
 /* Old div-based pageHeader
 div#semanticcms-theme-documentation-page-header {
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 2px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2px;
 }*/
 /* New h1-based pageHeader */
 h1#semanticcms-theme-documentation-page-header {
-	font-size: inherit; /* CSS3 - don't care about old IE */
-	border: none;
-	margin: 0px;
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 2px;
+  font-size: inherit; /* CSS3 - don't care about old IE */
+  border: none;
+  margin: 0px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2px;
 }
 #semanticcms-theme-documentation-page-top-links1,
 #semanticcms-theme-documentation-page-top-links2 {
-	font-size: 14px;
+  font-size: 14px;
 }
 #semanticcms-theme-documentation-page-top-links1 {
-	float:left;
+  float:left;
 }
 #semanticcms-theme-documentation-page-top-links2 {
-	float:right;
+  float:right;
 }
 #semanticcms-theme-documentation-page-top-links1 > a,
 #semanticcms-theme-documentation-page-top-links2 > a {
-	display: inline-block;
-	background-color: white;
-	padding: 2px 4px 2px 4px;
-	border: 1px solid #808080;
-	text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  padding: 2px 4px 2px 4px;
+  border: 1px solid #808080;
+  text-decoration: none;
 }
 #semanticcms-theme-documentation-page-top-links1 > a:hover,
 #semanticcms-theme-documentation-page-top-links2 > a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 .semanticcms-theme-documentation-page-top-link-active {
-	background-color: #ffff00 !important;
-	font-weight: bold;
+  background-color: #ffff00 !important;
+  font-weight: bold;
 }
 #semanticcms-theme-documentation-page-top-links-end {
-	clear: both;
+  clear: both;
 }
 main {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 57px;
-	bottom: 0px;
-	overflow: auto;
-	padding: 8px; /* Any change here must also be changed in .semanticcms-theme-documentation-page-main-undo-side-padding */
-	text-align: justify;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 57px;
+  bottom: 0px;
+  overflow: auto;
+  padding: 8px; /* Any change here must also be changed in .semanticcms-theme-documentation-page-main-undo-side-padding */
+  text-align: justify;
 }
 /*
-	This will undo the padding added by the main style
-	TODO: This is a convoluted approach.  Do themes need a "layout" concept like PCA?
+  This will undo the padding added by the main style
+  TODO: This is a convoluted approach.  Do themes need a "layout" concept like PCA?
 */
 .semanticcms-theme-documentation-page-main-undo-side-padding {
-	left:-8px;
-	right:-8px;
+  left:-8px;
+  right:-8px;
 }
 /* No justify within certain elements */
 td, th, li {
-	text-align: initial;
+  text-align: initial;
 }
 main a {
-	text-decoration: none;
+  text-decoration: none;
 }
 main a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 /* Bottom margin includes extra white space to help add scrolling space */
 #semanticcms-theme-documentation-page-pad-bottom {
-	clear: both;
-	margin-bottom: 6em;
+  clear: both;
+  margin-bottom: 6em;
 }
