@@ -31,6 +31,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
+/**
+ * Registers the style in {@link RegistryEE}.
+ */
 @WebListener("Registers the style in RegistryEE.")
 public class DocumentationThemeStyle implements ServletContextListener {
 
@@ -58,8 +61,8 @@ public class DocumentationThemeStyle implements ServletContextListener {
   public void contextInitialized(ServletContextEvent event) {
     // Add our CSS files
     Registry registry = RegistryEE.Application.get(event.getServletContext());
-    registry.getGroup(  RESOURCE_GROUP).styles.add(THEME_CSS, THEME_PRINT_CSS);
-    registry.getGroup(  FRAMESET_GROUP).styles.add(FRAMESET);
+    registry.getGroup(RESOURCE_GROUP).  styles.add(THEME_CSS, THEME_PRINT_CSS);
+    registry.getGroup(FRAMESET_GROUP).  styles.add(FRAMESET);
     registry.getGroup(NAVIGATION_GROUP).styles.add(NAVIGATION);
   }
 
