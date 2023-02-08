@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-theme-documentation-style - Default style for SemanticCMS theme tailored for technical documentation.
-Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -33,6 +33,7 @@ along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.
   <packaging>bundle</packaging>
 
   <properties>
+    <project.build.outputTimestamp>2023-02-08T21:06:04Z</project.build.outputTimestamp>
     <module.name>com.semanticcms.theme.documentation.style</module.name>
     <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
