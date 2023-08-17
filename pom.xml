@@ -33,7 +33,6 @@ along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.
   <packaging>bundle</packaging>
 
   <properties>
-    <project.build.outputTimestamp>2023-02-08T21:06:04Z</project.build.outputTimestamp>
     <module.name>com.semanticcms.theme.documentation.style</module.name>
     <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
