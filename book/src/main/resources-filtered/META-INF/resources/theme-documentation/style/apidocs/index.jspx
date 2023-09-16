@@ -39,5 +39,6 @@ along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.
     shortTitle="API Docs"
     datePublished="2020-03-04T14:00:20-06:00"
     dateModified="${ao:getLastModified('index.html')}"
+    allowRobots="false"
   />
 </jsp:root>
