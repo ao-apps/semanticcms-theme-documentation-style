@@ -41,6 +41,9 @@ along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.
     <documented.artifactId>semanticcms-theme-documentation-style</documented.artifactId>
     <documented.name>SemanticCMS Theme Documentation Style</documented.name>
     <documented.description>Default style for SemanticCMS theme tailored for technical documentation.</documented.description>
+    <javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
+/ <a target="${javadoc.target}" href="https://semanticcms.com/theme-documentation/">Theme Documentation</a>
+/ <a target="${javadoc.target}" href="${project.url}">Style</a>]]></javadoc.breadcrumbs>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
