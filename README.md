@@ -23,7 +23,7 @@ Default style for [SemanticCMS theme tailored for technical documentation](https
 * [Project Home](https://semanticcms.com/theme-documentation/style/)
 * [Changelog](https://semanticcms.com/theme-documentation/style/changelog)
 * [API Docs](https://semanticcms.com/theme-documentation/style/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-theme-documentation-style)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-theme-documentation-style)
 * [GitHub](https://github.com/ao-apps/semanticcms-theme-documentation-style)
 
 ## Contact Us
