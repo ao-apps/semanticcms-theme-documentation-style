@@ -21,9 +21,10 @@
  * along with semanticcms-theme-documentation-style.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.theme.documentation.style {
-  exports com.semanticcms.theme.documentation.style;
   // Direct
   requires com.aoapps.web.resources.registry; // <groupId>com.aoapps</groupId><artifactId>ao-web-resources-registry</artifactId>
   requires com.aoapps.web.resources.servlet; // <groupId>com.aoapps</groupId><artifactId>ao-web-resources-servlet</artifactId>
   requires jakarta.servlet; // <groupId>jakarta.servlet</groupId><artifactId>jakarta.servlet-api</artifactId>
+
+  exports com.semanticcms.theme.documentation.style;
 }
